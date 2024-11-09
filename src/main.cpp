@@ -25,6 +25,7 @@ competition Competition;
 
 Drive chassis(
 
+
 //Pick your drive setup from the list below:
 //ZERO_TRACKER_NO_ODOM
 //ZERO_TRACKER_ODOM
@@ -38,6 +39,7 @@ Drive chassis(
 //HOLONOMIC_TWO_ROTATION
 //
 //Write it here:
+TANK_ONE_FORWARD_ROTATION
 ZERO_TRACKER_NO_ODOM,
 
 //Add the names of your Drive motors into the motor groups below, separated by commas, i.e. motor_group(Motor1,Motor2,Motor3).
@@ -45,12 +47,16 @@ ZERO_TRACKER_NO_ODOM,
 
 //Left Motors:
 motor_group(),
+LF
+LB
 
 //Right Motors:
 motor_group(),
+RF
+RB
 
 //Specify the PORT NUMBER of your inertial sensor, in PORT format (i.e. "PORT1", not simply "1"):
-PORT1,
+PORT15,
 
 //Input your wheel diameter. (4" omnis are actually closer to 4.125"):
 3.25,
